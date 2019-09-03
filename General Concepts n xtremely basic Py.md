@@ -41,7 +41,9 @@ IDE Means Integrated development enviroment, which is a tool used for software d
 **a) compare the results obtained between 2 and 3, 4 and 5,  6 and 7**
 
 2 y 3 = in 2 the execution is done as instructed, while in 3 it’s not possible because of the incorrect use of the double right quotation marks
+
 4 y 5 = in 4 the multiplication is done on both numbers thanks to the use of parenthesis, in 5 it’s only being multiplied by 3 from the lack of parenthesis
+
 6 y 7 = neither of them is posible to execute from the use of doublé right quotation marks.
 
 **b) what happened with 8 y 9?**
