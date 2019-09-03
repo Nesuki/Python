@@ -13,8 +13,9 @@ High level language has the advantage of better comprehension at the time of pro
 
 Yes, it is neccesary in order to transform the human language to machine language.
 
-**(b) If the program is written in Python, do i need the Python interpreter?
-Yes, it allows the ejecution of instructions written in high level language without need of a compiler.**
+**(b) If the program is written in Python, do i need the Python interpreter?**
+
+Yes, it allows the ejecution of instructions written in high level language without need of a compiler.
 
 **4: What advantages do you think working with free software has?**
 
