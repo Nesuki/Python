@@ -9,7 +9,9 @@ Machine lenguaje can be identified by machines, which is made by binary numbers 
 High level language has the advantage of better comprehension at the time of programming and better execution speed compared to low level language, though high level language has bigger memory consuption compared to low level language.
 
 **3:I need to execute a program that allows me to do stadistical graphs.**
+
 **(a) If the program is written in C++, do i need the C++ compiler?**
+
 
 Yes, it is neccesary in order to transform the human language to machine language.
 
