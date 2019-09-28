@@ -303,9 +303,9 @@ a)
 tupla=(1,True,['a','b','c'], "hola")    tupla[1]=False
 ```
 
-¿Cuál es el resultado de esta ejecución?. Justificar
+Whats the result of this? justify
 
-Se quiere modificar el valor True por False, pero como es una tupla, es inmutable, por lo tanto da error de asignacion. 
+Tries to modify the value true to false, but since its a tuple, its inmutable, therefore it gives an assignation error 
 
 b)	
 
@@ -315,7 +315,7 @@ tupla=(1,True,['a','b','c'], "hola")     tupla[2][0]='b'
 
 Whats the result of this run? justify.
 
-It seeks to modify the true value to false, but gives asignation error because its a tuple, and tuples are immutable
+Tries to modify the value 'a' to 'b' without an assignation error, the reason behind this is because the list is being modified within the tuple, so it's not being seen as being modified.
 
 According to this list: lista=[1,True,['a','b','c'], "hola"]. run the different commands and describe the results
 a) 
