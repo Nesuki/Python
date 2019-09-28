@@ -324,7 +324,7 @@ tupla[2][0] ='b'
 
 Whats the result of this run? justify.
 
-Successfully modifies the value 'a' to 'b', this works because the list is being modified within the tuple, so it's not being modifying the tuple structure.
+Successfully modifies the value 'a' to 'b', this works because the list is being modified within the tuple, so it's not modifying the tuple structure.
 
 According to this list: lista=[1,True,['a','b','c'], "hola"]. run the different commands and describe the results
 a) 
