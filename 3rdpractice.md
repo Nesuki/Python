@@ -19,8 +19,8 @@ A List is mutable, you can add or substract elements from it. A tuple is immutab
 1:  Write a program that prints on the screen your name and age, in the screen it should appear "my name is xxxx and my age is xx"
 
 ```
-Nom=raw_input ('Insert your name')
-Edad=raw_input ('Insert your age')
+Nom = raw_input ('Insert your name')
+Edad = raw_input ('Insert your age')
 print ('My name is '+Nom+ ' and I am ')+Edad+(' years old')
 ```
 
@@ -46,7 +46,7 @@ raw_input , print
 It should appear as “¡Hello xxx!”
 
 ```python
-Nom=raw_input ('Insert your name')
+Nom = raw_input ('Insert your name')
 print ('Hello '+Nom+'!')
 ```
 
@@ -59,7 +59,7 @@ Nom
 Have you used values? which ones?
 
 ```
-Nom=raw_input, 'inserte nombre'
+Nom = raw_input, 'inserte nombre'
 ```
 have you used operators? which ones?
 
@@ -78,8 +78,8 @@ print, raw_imput
 On the screen it should appear "your name is xxx and your age is xx"
 
 ```python
-Nom=raw_input ('insert your name')
-Edad=raw_input ('insert your age')
+Nom = raw_input ('insert your name')
+Edad = raw_input ('insert your age')
 print ('Your name is '+Nom+' and your age is '+Edad)
 ```
 
@@ -122,7 +122,7 @@ print x
 
 b)
 ``` python
-x =30
+x = 30
 x = x % 4
 print x 
 ```
@@ -150,8 +150,8 @@ x= a * b print x
 
 e) 
 ```python
-a= 4 
-b= 3 
+a = 4 
+b = 3 
 x= “a” * b print x
 ```
 
@@ -188,7 +188,7 @@ value "2"
 c- 
 
 ```python
-nombre=raw_input('Insert a name') 
+nombre = raw_input('Insert a name') 
 print nombre
 ```
 
@@ -248,7 +248,8 @@ operator: %
 g- 
 
 ```python
-num1=raw_input('Insert a number') num2=raw_input('Insert another number') 
+num1 = raw_input('Insert a number') 
+num2 = raw_input('Insert another number') 
 print num1+num2
 ```
 
@@ -317,8 +318,8 @@ Tries to modify the value true to false, but since its a tuple, its immutable, t
 b)	
 
 ```python
-tupla=(1,True,['a','b','c'], "hola")
-tupla[2][0]='b'  
+tupla = (1,True,['a','b','c'], "hola")
+tupla[2][0] ='b'  
 ```
 
 Whats the result of this run? justify.
@@ -346,7 +347,8 @@ tries to print a list's element but it's out of range, theres not enough element
 c)
 
 ```
-lista.append (False)     print lista
+lista.append(False)
+print lista
 ```
 
 adds (False) to the list n then prints the list
@@ -354,7 +356,7 @@ adds (False) to the list n then prints the list
 d) 
 
 ```python
-lista=[1,True,['a','b','c'], "hola"]      
+lista = [1,True,['a','b','c'], "hola"]      
 del lista[2]
 print lista
 ```  
@@ -366,7 +368,7 @@ deletes the element in position 2 ['a','b','c'] and prints the list without the 
 1: show 5 times the string “Hello”
 
 ```python
-str="Hello"
+str = "Hello"
 print str * 5
 ```
 
@@ -383,9 +385,9 @@ print ord ("A"),ord("a"),ord("0")
 (The perimeter should give you 12 meters and the area 9 square meters.) 
 
 ```python
-l=3
-p=l*4
-a=l*l
+l = 3
+p = l*4
+a = l*l
 
 print ('The square perimeter is')  ,p,  ('meters')
 print ('The square area is') ,a, ('square meters')
@@ -407,7 +409,7 @@ else:
 5: Write a program that identifies if a number is divisible by 6
 
 ```python
-x=input ('Insert a number')
+x = input ('Insert a number')
 if x%6==0:
 	print ('is divisible by 6')
 else:
@@ -417,8 +419,8 @@ else:
 6: Write a program that reads two numbers "n" and "m" and determine if m is divisible by n
 
 ```python
-n=input('insert the first number: ')
-m=input('insert the second number: ')
+n = input('insert the first number: ')
+m = input('insert the second number: ')
 divisible= n>0
 print "The number ",m, " is divisible by the number ",n,"=",divisible
 ```
@@ -473,10 +475,10 @@ print(x)
 11: Implement a program that shows every multiple of n between n and m · n, both inclusively, where n and m are numbers inserted by the user
 
 ```
-n=input('insert the first number: ')
-m=input('insert the second number: ')
-x=input('insert the multiple: ')
-q=range(n, m, x)
+n = input('insert the first number: ')
+m = input('insert the second number: ')
+x = input('insert the multiple: ')
+q = range(n, m, x)
 print(q)
 ```
 
