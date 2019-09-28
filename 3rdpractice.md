@@ -14,7 +14,7 @@ A List is modificable, you can add or substract elements from it, the tuple is n
 ---
 
 
-### PART III Datos, Variables and Datatypes: ###
+### PART III Data, Variables and Datatypes: ###
 
 1:  Write a program that prints on the screen your name and age, in the screen it should appear "my name is xxxx and my age is xx"
 
