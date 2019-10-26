@@ -22,9 +22,9 @@ Return is how a function gives back its value, it's often unseen by a human user
 
  ```
 def print_date():
-	day=raw_input ('Ingrese Dia')
-	month=raw_input ('Ingrese Mes')
-	year=raw_input ('Ingrese año')
+	day = raw_input ('Ingrese Dia')
+	month = raw_input ('Ingrese Mes')
+	year = raw_input ('Ingrese año')
 	print day,(' of '),month,(' of '),year
 print_date()
  ```
@@ -45,7 +45,7 @@ def how_many_days(x):
 	mi_lista = [['january',31],['february',28],['march',31],['april',30],['may',31],['june',30],['july',31],['august',31],['september',30],['october',31],['november',30],['december',31]]
 	print mi_lista[x]
 print ('Insert the month number')
-x=input()
+x = input()
 
 print ('the month is'), how_many_days(x)
 
@@ -93,8 +93,8 @@ def area_rectangle():
 area_rectangle()
 
 def area_triangle():
-	b=input('Insert triangle base: ')
-	h=input ('Insert  triangle height: ')
+	b = input('Insert triangle base: ')
+	h = input ('Insert  triangle height: ')
 	print b*h/2
 area_triangle()
 
